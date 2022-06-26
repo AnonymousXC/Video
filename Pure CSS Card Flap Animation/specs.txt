@@ -1,0 +1,17 @@
+container
+    h = 400
+    w = 600
+    bg = #f2f2f2
+    rad = 20
+    shadow = 0 0 20px 8px #d0d0d0
+
+content 
+    font = 'Merriweather', serif
+    pad = 40
+
+h1 
+    weight = 900
+
+h3
+    weight = 300
+
