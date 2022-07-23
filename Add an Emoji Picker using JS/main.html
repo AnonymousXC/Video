@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Add An Emoji picker to Website</title>
+</head>
+<body>
+    <textarea name="" id="txt1" cols="60" rows="20">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum dolore quia pariatur, quis sed ducimus, ut rem, officiis minima vel beatae. Consequuntur, debitis commodi quod sapiente quos blanditiis animi sunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, deleniti pariatur distinctio dignissimos molestiae voluptatibus, ipsa, ratione hic explicabo quaerat reprehenderit quisquam dolor neque aliquid doloremque dolorem obcaecati nostrum suscipit.
+    </textarea>
+    <button class="btn1">Click Me</button>
+    <input type="text" id="x">
+</body>
+<script src="Emoji.js"></script>
+<script>
+    new EmojiPicker({
+        trigger: [
+            {
+                insertInto: ['#txt1', '#x'],
+                selector: '.btn1'
+            }
+        ],
+        closeButton: true,
+        dragButton: true
+    })
+</script>
+</html>
